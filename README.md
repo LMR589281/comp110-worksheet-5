@@ -8,7 +8,7 @@ b) The worst-case complexity for the procedure would be n^2 as each value is bei
 c) The procedure would still work but values that have already be check won’t be check again, in the first procedure the program checks every combination even if the combination has already been checked. Where as in the second procedure the same combinations are only checked once. The program will still work as every combination is checked but in a more efficient manner. 
 
 d) Old procedure comparing I to j (Key: i=j. Where each number represent its place in the list). In the first procedure all the combinations of positions in the lists are compared, this has drawbacks as some combinations are compared multiple times.  
-![alt text](4.png)
+![]("4.png")
 
 New procedure comparing I to j. In the second procure duplicates of pairs are taken out so every combination is only checked once.  
 0=0				
