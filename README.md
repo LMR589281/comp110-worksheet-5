@@ -11,7 +11,7 @@ d) Old procedure comparing I to j (Key: i=j. Where each number represent its pla
 ![four](4.png)
 
 New procedure comparing I to j. In the second procure duplicates of pairs are taken out so every combination is only checked once.  
-![three](3a.png)
+![three](3.png)
 
 The graph shows the compleixty of the two programes, with the green cuvre being the first algorithm (y=x^2) and the blue line being the second algorithm (y=0.5x^2+0.5x).
 ![two](2.png)
