@@ -8,10 +8,10 @@ b) The worst-case complexity for the procedure would be n^2 as each value is bei
 c) The procedure would still work but values that have already be check won’t be check again, in the first procedure the program checks every combination even if the combination has already been checked. Where as in the second procedure the same combinations are only checked once. The program will still work as every combination is checked but in a more efficient manner. 
 
 d) Old procedure comparing I to j (Key: i=j. Where each number represent its place in the list). In the first procedure all the combinations of positions in the lists are compared, this has drawbacks as some combinations are compared multiple times.  
-![four](4.png)
+![four](4.PNG)
 
 New procedure comparing I to j. In the second procure duplicates of pairs are taken out so every combination is only checked once.  
-![three](3.png)
+![three](3.PNG)
 
 The graph shows the compleixty of the two programes, with the green cuvre being the first algorithm (y=x^2) and the blue line being the second algorithm (y=0.5x^2+0.5x).
 ![two](2.png)
