@@ -14,6 +14,7 @@ New procedure comparing I to j. In the second procure duplicates of pairs are ta
 ![three](3.PNG)
 
 The graph shows the compleixty of the two programes, with the green cuvre being the first algorithm (y=x^2) and the blue line being the second algorithm (y=0.5x^2+0.5x).
+
 ![two](2.png)
  
 
@@ -24,6 +25,7 @@ f) Python’s built in sort function uses a timsort algorithm. A timsort algorit
 g) The time complexity of the procedure would be O(nlogn * n) as the timsort algorithm is run (the timsort algorithm has a time complexity of nlogn) then the procedure loops through the if statement comparing items in the list just the first procedure (this has a time complexity of n). So, when both are combined you get nlogn * n.   
 
 h) If the size of the input list is large, then the second procedure would run faster as the worst time complexity for the timsort algorithm is nlogn, whereas the first algorithm has a worst time complexity of n^2, and the n^2 graph is worse than the nlogn graph. Red is y=x^2, Blue is y= n * log(n)
+
 ![one](1.png)
 
 i) A “slower” algorithm may be chose over a “faster” algorithm because the programmer may not know of a faster algorithm, the slower algorithm may have other upside such as saving memory, the slower algorithm may use more programming techniques.
